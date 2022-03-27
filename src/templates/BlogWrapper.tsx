@@ -71,7 +71,7 @@ const BlogWrapper = (props: IMainProps) => (
               </svg>
             </a>
           </Link>
-          <Link href="https://github.com/ratoru/psetgroups">
+          <Link href="https://github.com/ratoru">
             <a className="text-gray-400 hover:text-gray-500">
               <span className="sr-only">GitHub</span>
               <svg
