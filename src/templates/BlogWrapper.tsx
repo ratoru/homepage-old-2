@@ -7,11 +7,10 @@ type IMainProps = {
   children: ReactNode;
 };
 
-const Main = (props: IMainProps) => (
+const BlogWrapper = (props: IMainProps) => (
   <div className="px-1 w-full antialiased text-gray-700">
     {props.meta}
-
-    <section className="px-8 w-full text-gray-700 bg-offwhite md:absolute body-font">
+    <section className="fixed px-8 w-full text-gray-700 bg-offwhite">
       <div className="container flex flex-row justify-center items-center py-6 mx-auto max-w-7xl">
         <nav className="flex justify-center items-center space-x-12 text-base md:space-x-16">
           <Link href="/#projects">
@@ -32,6 +31,7 @@ const Main = (props: IMainProps) => (
         </nav>
       </div>
     </section>
+    <div className="h-[64px]" />
 
     <div className="py-5 text-xl bg-offwhite">{props.children}</div>
 
@@ -94,4 +94,4 @@ const Main = (props: IMainProps) => (
   </div>
 );
 
-export { Main };
+export { BlogWrapper };
