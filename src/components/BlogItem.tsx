@@ -18,12 +18,12 @@ export const BlogItem: React.FC<BlogItemProps> = ({
   return (
     // <article className="flex relative flex-col pt-8 max-w-3xl lg:ml-auto xl:w-[50rem] xl:max-w-none">
     <article className="flex relative flex-col pt-8 max-w-3xl lg:ml-auto">
-      <h3 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-200">
+      <h3 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">
         <Link href={`/blog/${slug}`}>
           <a>{title}</a>
         </Link>
       </h3>
-      <div className="mb-6 prose prose-lg dark:prose-dark">{description}</div>
+      <div className="mb-6 prose prose-lg">{description}</div>
       <div className="flex flex-row-reverse justify-end items-center mt-auto">
         <dl>
           {category && (
@@ -35,7 +35,7 @@ export const BlogItem: React.FC<BlogItemProps> = ({
             </>
           )}
           <dt className="sr-only">Date</dt>
-          <dd className="text-base leading-6 dark:text-gray-400 lg:absolute lg:top-0 lg:right-full lg:mr-8 lg:whitespace-nowrap">
+          <dd className="text-base leading-6 lg:absolute lg:top-0 lg:right-full lg:mr-8 lg:whitespace-nowrap">
             <time dateTime={date}>{new Date(date).toDateString()}</time>
           </dd>
         </dl>
