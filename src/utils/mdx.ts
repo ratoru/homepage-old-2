@@ -50,6 +50,7 @@ const getCompiledMDX = async (mdxSource: string) => {
 
       return options;
     },
+    cwd: POSTS_PATH,
   });
   /* eslint-enable */
 };

@@ -2,6 +2,7 @@ import React from 'react';
 
 import { getMDXComponent } from 'mdx-bundler/client';
 
+import { Aside } from '@/components/blog/Aside';
 import { Meta } from '@/layout/Meta';
 import { BlogWrapper } from '@/templates/BlogWrapper';
 
@@ -9,6 +10,9 @@ import { getAllPosts, getSinglePost } from '../../utils/mdx';
 
 const Post = ({ code, frontmatter }: { code: any; frontmatter: any }) => {
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
+  const components = {
+    Aside,
+  };
 
   return (
     <BlogWrapper
@@ -16,8 +20,8 @@ const Post = ({ code, frontmatter }: { code: any; frontmatter: any }) => {
         <Meta title={frontmatter.title} description={frontmatter.description} />
       }
     >
-      <div className="mx-auto prose-a:decoration-purple-500 prose prose-gray lg:prose-xl">
-        <Component />
+      <div className="px-4 mx-auto hover:prose-a:text-purple-500 prose-a:decoration-purple-500 prose prose-gray md:px-0 lg:prose-xl">
+        <Component components={components} />
       </div>
     </BlogWrapper>
   );

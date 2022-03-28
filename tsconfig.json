@@ -19,7 +19,7 @@
     "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
 
-    "target": "es5",
+    "target": "esnext", // Changed because of mdx bundler
     "outDir": "out",
     "declaration": true,
     "sourceMap": true,

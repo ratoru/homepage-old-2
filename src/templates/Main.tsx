@@ -15,17 +15,17 @@ const Main = (props: IMainProps) => (
       <div className="container flex flex-row justify-center items-center py-6 mx-auto max-w-7xl">
         <nav className="flex justify-center items-center space-x-12 text-base md:space-x-16">
           <Link href="/#projects">
-            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-8 transition duration-150 ease-out lg:text-xl">
+            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-4 transition duration-150 ease-out md:text-xl">
               Projects
             </a>
           </Link>
           <Link href="/#about">
-            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-8 transition duration-150 ease-out lg:text-xl">
+            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-4 transition duration-150 ease-out md:text-xl">
               About
             </a>
           </Link>
           <Link href="/#blog">
-            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-8 transition duration-150 ease-out lg:text-xl">
+            <a className="text-lg font-medium leading-6 text-gray-600 hover:text-gray-900 hover:underline hover:underline-offset-4 transition duration-150 ease-out md:text-xl">
               Blog
             </a>
           </Link>
