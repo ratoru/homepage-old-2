@@ -40,7 +40,7 @@ const Main = (props: IMainProps) => (
         <Link href="/">
           <a>
             <img
-              src="/assets/avatar.svg"
+              src="/assets/portrait-no-bg.png"
               className="h-12"
               alt="Raphael's Avatar"
             />

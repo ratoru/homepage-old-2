@@ -16,7 +16,6 @@ export const BlogItem: React.FC<BlogItemProps> = ({
   description,
 }) => {
   return (
-    // <article className="flex relative flex-col pt-8 max-w-3xl lg:ml-auto xl:w-[50rem] xl:max-w-none">
     <article className="flex relative flex-col pt-8 max-w-3xl lg:ml-auto">
       <h3 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">
         <Link href={`/blog/${slug}`}>
