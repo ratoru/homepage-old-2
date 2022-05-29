@@ -20,7 +20,7 @@ const Post = ({ code, frontmatter }: { code: any; frontmatter: any }) => {
         <Meta title={frontmatter.title} description={frontmatter.description} />
       }
     >
-      <div className="px-4 mx-auto hover:prose-a:text-purple-500 prose-a:decoration-purple-500 prose prose-gray md:px-0 lg:prose-xl">
+      <div className="px-4 mx-auto hover:prose-a:text-purple-600 prose-a:decoration-purple-600 prose prose-gray md:px-0 lg:prose-xl">
         <Component components={components} />
       </div>
     </BlogWrapper>

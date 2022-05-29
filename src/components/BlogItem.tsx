@@ -28,7 +28,7 @@ export const BlogItem: React.FC<BlogItemProps> = ({
           {category && (
             <>
               <dt className="sr-only">Category</dt>
-              <dd className="absolute top-0 left-0 text-base font-semibold leading-6 text-violet-500">
+              <dd className="absolute top-0 left-0 text-base font-semibold leading-6 text-purple-600">
                 {category}
               </dd>
             </>
@@ -47,7 +47,7 @@ export const BlogItem: React.FC<BlogItemProps> = ({
           <circle cx="1" cy="1" r="1" />
         </svg>
         <Link href={`/blog/${slug}`}>
-          <a className="inline-flex items-center py-2 px-4 text-base text-gray-700 bg-violet-200 hover:bg-violet-300 rounded-xl hover:shadow-lg">
+          <a className="inline-flex items-center py-2 px-4 text-base text-gray-700 bg-purple-200 hover:bg-violet-300 rounded-xl hover:shadow-lg">
             Read more<span className="sr-only">, {title}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

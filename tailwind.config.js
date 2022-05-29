@@ -4,6 +4,10 @@ module.exports = {
     extend: {
       colors: {
         offwhite: '#fefaf6',
+        brightblue: '#5880ff',
+        brightgreen: '#67d500',
+        brightpink: '#ff6682',
+        brightyellow: '#ffbe00',
       },
       fontFamily: {
         sans: ['Lato', 'sans'],
