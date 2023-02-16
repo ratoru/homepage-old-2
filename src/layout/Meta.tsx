@@ -1,5 +1,5 @@
-import { useRouter } from 'next/router';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { NextSeo } from 'next-seo';
 
 import { AppConfig } from '@/utils/AppConfig';
