@@ -5,8 +5,8 @@ export const Overview: React.FC = () => {
       <h2 className="mb-9 font-serif text-4xl font-medium lg:text-5xl">
         What I&apos;m doing
       </h2>
-      <div className="grid grid-cols-5 grid-rows-3 gap-y-4 w-full">
-        <div className="col-span-full row-start-1 p-6 bg-brightgreen rounded-2xl md:col-span-1 md:col-start-1 md:row-start-3">
+      <div className="grid grid-cols-6 grid-rows-5 gap-4 w-full md:grid-rows-4">
+        <div className="col-span-full row-start-1 p-6 bg-brightgreen rounded-2xl md:col-span-1 md:col-start-1 md:row-start-4">
           <div className="flex justify-between items-center w-full">
             <div className="flex flex-col gap-y-1">
               <p className="text-lg font-medium text-gray-900">UNESCO</p>
@@ -15,9 +15,9 @@ export const Overview: React.FC = () => {
             <p className="text-xl font-bold text-gray-900">18-19</p>
           </div>
         </div>
-        <div className="col-span-full row-start-2 p-6 bg-brightpink rounded-2xl md:col-span-4 md:col-start-2 md:row-start-2">
+        <div className="col-span-full row-start-2 p-6 bg-brightpink rounded-2xl md:col-span-4 md:col-start-2 md:row-start-3">
           <div className="flex justify-between items-center w-full">
-            <div className="flex flex-col gap-y-1">
+            <div className="flex flex-col gap-y-1 ">
               <p className="text-lg font-medium text-gray-900">
                 Stanford Undergrad
               </p>
@@ -26,13 +26,35 @@ export const Overview: React.FC = () => {
             <p className="text-xl font-bold text-gray-900">19-23</p>
           </div>
         </div>
-        <div className="col-span-full row-start-3 p-6 bg-brightblue rounded-2xl md:col-span-1 md:col-start-3 md:row-start-1">
+        <div className="col-span-full row-start-3 p-6 bg-brightblue rounded-2xl md:col-span-1 md:col-start-3 md:row-start-2">
           <div className="flex justify-between items-center w-full">
-            <div className="flex flex-col gap-y-1">
+            <div className="flex flex-col gap-y-1 ">
               <p className="text-lg font-medium text-gray-900">System.One</p>
               <p className="text-base text-gray-900">Pre-seed VC</p>
             </div>
             <p className="text-xl font-bold text-gray-900">21</p>
+          </div>
+        </div>
+        <div className="col-span-full row-start-4 p-6 bg-brightblue rounded-2xl md:col-span-1 md:col-start-4 md:row-start-2">
+          <div className="flex justify-between items-center w-full">
+            <div className="flex flex-col gap-y-1 ">
+              <p className="text-lg font-medium text-gray-900">Pontis</p>
+              <p className="text-base text-gray-900">On StarkNet</p>
+            </div>
+            <p className="text-xl font-bold text-gray-900">22</p>
+          </div>
+        </div>
+        <div className="col-span-full row-start-5 p-6 bg-brightpink rounded-2xl md:col-span-2 md:col-start-5 md:row-start-1">
+          <div className="flex justify-between items-center w-full">
+            <div className="flex flex-col gap-y-1">
+              <p className="text-lg font-medium text-gray-900">
+                Stanford CS Master
+              </p>
+              <p className="text-base text-gray-900">
+                Computer and Network Security
+              </p>
+            </div>
+            <p className="text-xl font-bold text-gray-900">22-24</p>
           </div>
         </div>
       </div>
